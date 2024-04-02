@@ -14,10 +14,10 @@ import com.twilio.type.PhoneNumber;
 
 @SpringBootApplication
 public class SpringBootCallAppApplication implements ApplicationRunner {
-private final static String SID_ACCOUNT="AC30135fe2ae99e9c38a257466bb16160a";
-private final static String AUTH_ID="c59301123ac8c0a651d6f2ceb8accf53";
-private final static String FROM_NUMBER="+12512209376";
-private final static String TO_NUMBER="+917396139192";
+private final static String SID_ACCOUNT="Mention your Twilio details";
+private final static String AUTH_ID="Mention your Twilio details";
+private final static String FROM_NUMBER="Mention your Twilio details";
+private final static String TO_NUMBER="be sure while you are giving number should be have country code also";
 
 static {
 	Twilio.init(SID_ACCOUNT, AUTH_ID);
